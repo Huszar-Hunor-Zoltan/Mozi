@@ -19,3 +19,6 @@ body {
     background-image: url("images/Filmek\ back.jfif");
     background-size: cover;
 }
+img {
+    border-radius: 15px;
+}
