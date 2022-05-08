@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    background-image: url("images/háttér.png");
+    background-size: cover;
+}
+.container {
+    border-style: dashed !important;
+}
+.header {
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    height: 100px;
+    color: white;
+}
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+}
+.section {
+    background-image: url("images/Filmek\ back.jfif");
+    background-size: cover;
+}
