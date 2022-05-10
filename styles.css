@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-image: url("images/háttér.png");
     background-size: cover;
@@ -9,16 +12,15 @@ body {
 .header {
     background-image: url("images/header.jpg");
     background-size: cover;
-    height: 100px;
-    color: white;
-}
-.header h1 {
-    font-family: 'Poppins', sans-serif;
+    height: 375px;
 }
 .section {
     background-image: url("images/Filmek\ back.jfif");
     background-size: cover;
 }
 img {
+    border-radius: 15px;
+}
+iframe {
     border-radius: 15px;
 }
