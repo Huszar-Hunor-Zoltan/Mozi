@@ -4,13 +4,14 @@ html {
 body {
     background-image: url("images/háttér.png");
     background-size: cover;
+    overflow: overlay;
 }
 .container {
     border-style: dashed !important;
 }
 .header {
     background-image: url("images/header.jpg");
-    background-size: cover;
+    background-size: auto;
     height: 375px;
 }
 .header h1 {
@@ -31,4 +32,18 @@ iframe {
     bottom: 30px;
     position: fixed;
     display: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(226, 226, 226);
 }
